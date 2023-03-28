@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <form action="">
+        <label name="nombre">NOMBRE</label>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+        <br>
+        <label name="Direccion">DIRECCIÓN</label>
+        <input type="text" name="Dirección" id="Dirección">
+        <br>
+        <br>
+        <label name="Espmedica">ESPECIALIDAD MÉDICA</label>
+        <input type="text" list="listamedica" name="Espmedica" id="Espmedica">
+        <datalist id="listamedica">
+            <option value="MEDICINA INTERNA"></option>
+            <option value="MEDICINA GENERAL"></option>
+            <option value="TRAUMATOLOGIA"></option>
+            <option value="NUTRICIONISTA"></option>
+    
+        </datalist>
+        <br>
+        <br>
+        <label for="fecha">FECHA</label>
+        <input type="date" name="fecha">
+        <br>
+        <br>
+        <label for="hora">HORA</label>
+        <input type="time" name="hora">
+        <br>
+        <br>
+        <label for="email">CORREO</label>
+        <input type="email" name="email">
+        <br>
+        <br>
+        <input type="button" value="CONFIRMAR">
+    </form>
+    
+</body>
+</html>
