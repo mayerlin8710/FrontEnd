@@ -15,8 +15,9 @@
         <ul>
             <li>Nuestros  Productos</li>
             <li>Sobre Nosotros</li>
-            <li>Comuníquemos</li>
-            <li>Reserva</li>
+            <li><a href="#contacto">Comuníquemonos</a></li>
+            <li><a href="#reservas">Reserva</a></li>
+         
         </ul>
 
         <h1> Nimrodel PUB Restaurant</h1>
@@ -25,17 +26,83 @@
 
         <img src="img/bebidas.jpg" alt="" width="40%" height="40%">
         <h3>GASEOSAS</h3>
-        <h6>Encontrarás nuestra mejor selección de bebidas que te cautivarán</h6>
+        <h6>Encontrarás nuestra mejor selección de bebidas que te cautivarán.</h6>
 
         <img src="img/tablas.jpg" alt="" width="40%" height="40%">
         <h3>TABLAS</h3>
-        <h6>Encontrarás nuestra mejor selección de tablas que deleitarán tu paladar</h6>
+        <h6>Encontrarás nuestra mejor selección de tablas que deleitarán tu paladar.</h6>
 
 
         <img src="img/shop.jpeg" alt="" width="40%" height="40%">
         <h3>Shop Cerveza</h3>
-        <h6>Encontrarás nuestra mejor selección de cerveza que saciará tu sed</h6>
+        <h6>Encontrarás nuestra mejor selección de cerveza que saciará tu sed.</h6>
     </section>
+    <br>
+    <section id="contacto">
+        <form action="post" >
+            <h3>Comuniquémonos</h3>
+            <br>
+            <label name="nombre">Nombre</label>
+            <input type="text" placeholder="Maria Vargas" name="nombre" id="nombre">
+            <br>
+            <br>
+            <label name="email">Correo</label>
+            <input type="email" placeholder="mariavargas@correo.com" name="email" id="email">
+            <br>
+            <br>
+            <label name="telefono">Teléfono</label>
+            <input type="tel" placeholder="987654346" name="telefono" id="telefono">
+            <br>
+            <br>
+            <label name="motivo">Motivo</label>
+            <input type="text" list="listamotivo" name="motivo" id="motivo">
+            <datalist id="listamotivo">
+                <option value="Consultas o Sugerencias"></option>
+                <option value="Reclamo"></option>
+                <option value="Felicitaciones"></option>
+            </datalist>
+            <br>
+            <br>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <input type="button" value="Enviar">
+        </form>
+    </section>
+    <br><br>
+    <section id="reservas">
+        <form action="post" >
+            <h3>Reserva</h3>
+            <br>
+            <label name="nombre">Nombre</label>
+            <input type="text" placeholder="Maria Vargas" name="nombre" id="nombre">
+            <br>
+            <br>
+            <label name="emailreserva">Correo</label>
+            <input type="email" placeholder="mariavargas@correo.com" name="emailreserva" id="emailreserva">
+            <br>
+            <br>
+            <label name="telefonoreserva">Teléfono</label>
+            <input type="tel" placeholder="987654346" name="telefonoreserva" id="telefonoreserva">
+            <br>
+            <br>
+            <label name="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha">
+            <br>
+            <br>
+            <label name="time">Hora</label>
+            <input type="time" name="time" id="time">
+            <br>
+            <br>
+            <label name="cant">Cantidad de Asistentes</label>
+            <input type="number" name="cant" id="cant">
+            <br>
+            <br>
+            <input type="button" value="Reservar">
+        </form>
+    </section>
+
+    <br><br>
     <footer>
         <label for="copyrigth">Todos los derechos reservados &nbsp;&reg;
         </label>
