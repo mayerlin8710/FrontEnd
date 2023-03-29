@@ -1,0 +1,66 @@
+table {
+    width: 50%;
+    position: relative;
+    border: 3mm;
+    border-color: rgb(244, 247, 249);
+ }
+
+ th, td {
+    width: 25%;
+   
+ }
+
+ .rojo{
+    background-color: red;
+    text-align: center;
+ }
+ .amarillo{
+   background-color: yellow;
+   text-align: center;
+}
+.blanco{
+   background-color: white;
+   text-align: center;
+}
+.verde{
+   background-color: green;
+   text-align: center;
+}
+.gris{
+   background-color: gray;
+   text-align: center;
+}
+.cafe{
+   background-color: brown;
+   text-align: center;
+}
+.azul{
+   background-color: blue;
+   text-align: center;
+}
+.violeta{
+   background-color: violet;
+   text-align: center;
+}
+.rosado{
+   background-color:pink;
+   text-align: center;
+}
+.turqueza{
+   background-color: turquoise;
+   text-align: center;
+}
+.naranja{
+   background-color: orange;
+   text-align: center;
+}
+.purpura{
+   background-color: purple;
+   text-align: center;
+}
+
+.negro{
+   background-color: black;
+   text-align: center;
+   color:white;
+}
