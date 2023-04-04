@@ -5,6 +5,18 @@
 //var numero2=10;
 //var nombre= "Jose";
 //var resultado= numero1 =numero2;
+function compara(numero1, numero2) {
+    let mensaje;
+    if (numero1 > numero2) {
+        mensaje="En Primer número es mayor ";
+    } else if (numero1 === numero2) {
+        mensaje="Los números son iguales";
+    }
+    else {
+        mensaje="En segundo número es mayor ";
+    }
+    return mensaje;
+}
 
 function suma(numero1, numero2) {
     let suma = numero1 + numero2;
@@ -40,6 +52,9 @@ console.log(opcion);
 if (opcion < 1 || opcion >7) {
     alert("Eleccion Incorrecta. Adiós ");
 }
+else if (opcion===7){
+    alert("Adiós");
+}
 else {
     numero1 = prompt("ingrese el primer número");
     numero2 = prompt("ingrese el segundo número");
@@ -47,14 +62,7 @@ else {
     numero2 = parseInt(numero2);
     switch (opcion) {
         case 1:
-            if (numero1 > numero2) {
-                alert("En Primer número es mayor ");
-            } else if (numero1 === numero2) {
-                alert("Los números son iguales");
-            }
-            else {
-                alert("En segundo número es mayor ");
-            }
+            alert(compara(numero1, numero2));
             break;
         case 2:
             resultado = suma(numero1, numero2);
@@ -62,7 +70,7 @@ else {
             break;
         case 3:
             resultado = resta(numero1, numero2);
-            alert("El resultado de la suma es " + resultado);
+            alert("El resultado de la resta es " + resultado);
             break;
         case 4:
             resultado = mult(numero1, numero2);
@@ -74,9 +82,6 @@ else {
             break;
         case 6:
             alert("Usted ha ingresado  " + numero1 + "  y " + numero2)
-            break;
-        case 7:
-            alert("Adiós");
             break;
     }
 
