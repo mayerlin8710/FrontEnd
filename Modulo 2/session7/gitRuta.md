@@ -1,0 +1,1 @@
+https://github.com/mayerlin8710/FrontEnd/blob/main/Modulo%202/session7/assets/js/logica.js
