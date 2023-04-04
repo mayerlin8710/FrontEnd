@@ -49,7 +49,7 @@ var numero1, numero2, resultado;// estamos creando 3 variables nulas a la vez
 let opcion = 0;// el salto de linea se hace con la tecla \n
 opcion = parseInt(prompt("seleccione que desea hacer:\n1.Calcular cuál número es mayor \n2.Sumar \n3.Restar\n4.Multiplicar\n5.Dividir\n6. Mostrar los números ingresados\n7 Salir"));
 console.log(opcion);
-if (opcion < 1 || opcion >7) {
+if (opcion < 1 || opcion >7|| isNaN(opcion))  {
     alert("Eleccion Incorrecta. Adiós ");
 }
 else if (opcion===7){
