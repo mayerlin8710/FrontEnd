@@ -6,6 +6,32 @@
 //var nombre= "Jose";
 //var resultado= numero1 =numero2;
 
+function suma(numero1, numero2) {
+    let suma = numero1 + numero2;
+    return suma
+
+}
+
+
+function resta(numero1, numero2) {
+    let resta = numero1 - numero2
+    return resta
+
+
+}
+
+function div(numero1, numero2) {
+    let div = numero1 / numero2;
+    return div
+
+}
+
+function mult(numero1, numero2) {
+    let mult = numero1 * numero2
+    return mult
+
+
+}
 // console.log(nombre =" dice que el resultado de la suma es: :"=resultado);
 var numero1, numero2, resultado;// estamos creando 3 variables nulas a la vez
 let opcion = 0;// el salto de linea se hace con la tecla \n
@@ -60,34 +86,8 @@ else {
     //alert("la suma de "+ numero1+ "+" + numero2 + "es" + resultado)
     //console.log("el resultado es"+resultado);
 
-    function suma(numero1, numero2) {
-        let suma = numero1 + numero2;
-        return suma
 
-    }
-
-
-    function resta(numero1, numero2) {
-        let resta = numero1 - numero2
-        return resta
-
-
-    }
-
-    function div(numero1, numero2) {
-        let div = numero1 / numero2;
-        return div
-
-    }
-
-    function mult(numero1, numero2) {
-        let mult = numero1 * numero2
-        return mult
-
-
-    }
-
-    alert("Programa Finalizado")
+    alert("Programa Finalizado");
 
     //alert("la suma de " + numero1 + "+" + numero2 + "es" + resultado);
 }
